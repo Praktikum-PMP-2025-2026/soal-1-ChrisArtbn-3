@@ -50,11 +50,11 @@ int main(){
         Median = (arr[count / 2]);
     
     printf("COUNT %d", count);
-        printf("\nSORTED ");
+        printf("SORTED ");
         for (int i = 0; i < count; i++){
-            printf("%d", arr[i]);
+            printf("%d ", arr[i]);
     }
-    printf("\nMEDIAN %f", Median);
+    printf("MEDIAN %f", Median);
 
     free(arr);
 }
