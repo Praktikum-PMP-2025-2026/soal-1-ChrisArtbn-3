@@ -49,12 +49,12 @@ int main(){
     else{
         Median = (arr[count / 2]);
     
-    printf("COUNT %d", count);
+    printf("COUNT %d ", count);
         printf("SORTED ");
         for (int i = 0; i < count; i++){
             printf("%d ", arr[i]);
     }
-    printf("MEDIAN %f", Median);
+    printf("MEDIAN %.2f", Median);
 
     free(arr);
 }
